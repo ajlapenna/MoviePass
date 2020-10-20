@@ -17,7 +17,10 @@ class MovieController {
         return $this->movieDAO->getAPI();
     }
 
-}
+    public function listMovies($message = "") {
+        require_once(VIEWS_PATH. "movieList.php");
+    }
 
+}
 
 ?>

@@ -1,16 +1,4 @@
 
-<!-- <div class="bgded overlay" style="background-image:url('<?php echo IMG_PATH; ?>FlamingMoeHome.jpg');"> 
-  <div class="wrapper row0">
-    <div id="topbar" class="hoc clear">   
-      <div class="fl_right">     
-        <ul class="nospace">
-          <li><i class="fas fa-phone"></i> (123) 456 7890</li>
-          <li><i class="far fa-envelope"></i> FlamingMoe@beer.com</li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-
   <div class="wrapper row1">
     <header id="header" class="hoc clear"> 
       <div id="logo" class="fl_left">
@@ -19,17 +7,17 @@
       <!-- Add path routes below -->
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-            <li class="active"><a href="<?php echo FRONT_ROOT ?>">Menu Principal</a></li>
+            <li class="active">Menu Principal</li>
             <li><a class="drop" href="#">Peliculas</a>
               <ul>
-                <!-- <li><a href="<?php echo FRONT_ROOT."Beer/ShowAddView" ?>">Agregar</a></li> -->
-                <li><a href="<?php echo FRONT_ROOT."Beer/ShowListView" ?>">Ver Listado</a></li>
+                <!-- <li><a href="<?php echo FRONT_ROOT."" ?>">Agregar</a></li> -->
+                <li><a href="<?php echo FRONT_ROOT ?>">Ver Listado</a></li>
               </ul>
             </li>
             <li><a class="drop" href="#">Iniciar Sesion</a>
               <ul>
                 <li><a href="<?php echo FRONT_ROOT."" ?>">Iniciar Sesion</a></li>
-                <li><a href=<?php echo FRONT_ROOT."" ?>>Registrarse</a></li>
+                <li><a href=<?php echo FRONT_ROOT."SignUp/ShowSignUpView" ?>>Registrarse</a></li>
               </ul>
             </li>
         </ul>
