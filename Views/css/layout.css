@@ -254,6 +254,9 @@ table, th{table-layout:auto;}
 table{width:100%; margin-bottom:15px;}
 th, td{padding:5px 8px;}
 td{border-width:0 1px;}
+td img {
+	width:30%;
+}
 
 /* Font Awesome Social Icons
 --------------------------------------------------------------------------------------------------------------- */

@@ -1,5 +1,5 @@
 <footer id="footer" class="hoc clear"> 
-    <div class="center">
+    <!-- <div class="center">
       <h6 class="heading">Flamming Moe´s</h6> 
       <nav>
         <ul class="nospace inline pushright uppercase">
@@ -9,7 +9,7 @@
           <li><a href="">Tipos de Cerveza</a></li>
         </ul>
       </nav>
-    </div>
+    </div> -->
   </footer>
 </div>
 <div class="wrapper row5">

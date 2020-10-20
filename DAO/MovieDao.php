@@ -32,7 +32,7 @@ class MovieDao implements Imovie{
 		$this->saveData();
     }
     
-    public function getAllCinema(){
+    public function getAllMovies(){
         $this->retrieveData();
         return $this->listMovie;
     
@@ -47,11 +47,40 @@ class MovieDao implements Imovie{
 
            $arrayToDecode = ($jsonContent) ? json_decode($jsonContent,true):array();
 
-           foreach($arrayToDecode as $valueArray){
-               $movie = new Movie($valueArray["id_movie"],$valueArray["title"],$valueArray["language"],$valueArray["duration"],$valueArray["image"]);
-               array_push($this->listMovie,$movie);
+           foreach($arrayToDecode as $movie){
+            $movie = new Movie($movie["id"], $movie["original_title"], $movie["original_language"], $movie["poster_path"], $movie["overview"]);
+               array_push($this->listMovie, $movie);
            }
        }
+    }
+
+    public function getAPI() {
+        $this->retrieveAPI();
+        return $this->listMovie;
+    }
+
+    private function retrieveAPI() //Trae las peliculas "now_playing" de la API
+    {
+
+        $movieList = array();
+
+        $jsonContent = file_get_contents("https://api.themoviedb.org/3/movie/now_playing?api_key=1b6861e202a1e52c6537b73132864511&language=en-US&page=1");
+
+            $arrayToDecode = ($jsonContent) ? json_decode($jsonContent, true) : array();
+
+            $arrayDePelis = $arrayToDecode["results"]; // Decodifico el array de resultados, porque la api trae otro que se llama "DATA"
+
+            //Lo recorro y cargo una movie en un array por cada posicion del array
+            foreach ($arrayDePelis as $movie) 
+            {
+                    $movie = new Movie($movie["id"], $movie["original_title"], $movie["original_language"], $movie["poster_path"], $movie["overview"]);               
+                    array_push($movieList, $movie);
+                    $this->listMovie = $movieList;
+            }
+            //Al finalizar guardo el array que traje al principio en un json
+            $jsonContent = json_encode($arrayToDecode, JSON_PRETTY_PRINT);
+            file_put_contents($this->fileJsonMovie, $jsonContent);
+
     }
 
 
@@ -63,7 +92,7 @@ class MovieDao implements Imovie{
 			$valueArray['id_movie'] =$movie->getId_movie();
 			$valueArray['title'] =$movie->getTitle() ;
 			$valueArray['language'] =$movie->getLanguage();
-			$valueArray['duration'] = $movie->getDuration();
+			$valueArray['overview'] = $movie->getOverview();
 			$valueArray['imagen'] = $movie->getImage();
 			array_push($arrayToEncode, $valueArray);
 			

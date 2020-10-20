@@ -5,17 +5,16 @@ class Movie {
     private $id_movie;
     private $title;
     private $language;
-    private $duration; 
     private $image;
+    private $overview;
 
-    public function __construct($id_movie,$title,$language,$duration,$image)
+    public function __construct($id_movie,$title,$language,$image,$overview)
 	{
         $this->id_movie = $id_movie;
         $this->title = $title;
         $this->language = $language;
-        $this->duration = $duration;
         $this->image = $image;
-
+        $this->overview = $overview;
     }
     
     public function getId_movie()
@@ -50,17 +49,6 @@ class Movie {
 
     }
 
-    public function getDuration()
-    {
-        return $this->duration;
-    }
-
-    public function setDuration($duration)
-    {
-        $this->duration = $duration;
-
-    }
-
     public function getImage()
     {
         return $this->image;
@@ -69,6 +57,17 @@ class Movie {
     public function setImage($image)
     {
         $this->image = $image;
+
+    }
+
+    public function getOverview()
+    {
+        return $this->overview;
+    }
+
+    public function setOverview($overview)
+    {
+        $this->overview = $overview;
 
     }
 }
