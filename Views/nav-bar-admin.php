@@ -11,22 +11,19 @@
             <li><a class="drop" href="#">Peliculas</a>
               <ul>
                 <!-- <li><a href="<?php echo FRONT_ROOT."" ?>">Agregar</a></li> -->
-                <li><a href="<?php echo FRONT_ROOT ?>">Ver Listado</a></li>
+                <li><a href="<?php echo FRONT_ROOT ?>">Listar Peliculas</a></li>
               </ul>
             </li>
-            <?php if(!isset($_SESSION["userName"])){ ?>
-            <li><a class="drop" href="#">Iniciar Sesion</a>
+            i><a class="drop" href="#">Cines</a>
               <ul>
-                <li><a href="<?php echo FRONT_ROOT."LogIn/ShowLogInView" ?>">Iniciar Sesion</a></li>
-                <li><a href=<?php echo FRONT_ROOT."SignUp/ShowSignUpView" ?>>Registrarse</a></li>
+                <li><a href="<?php echo FRONT_ROOT ?>">Gestion de cines</a></li>
               </ul>
             </li>
-            <?php } else {?>
+            <li><a class="drop" href="#">Sesion</a>
               <ul>
-                <li><a href="<?php echo FRONT_ROOT."Admin/ListCinemas" ?>">Ver Cines</a></li>
-                <li><a href=<?php echo FRONT_ROOT."Admin/SessionDestroy" ?>>Cerrar Sesion</a></li>
+                <li><a href="<?php echo FRONT_ROOT."Nav/SessionDestroy" ?>">Cerrar Sesion</a></li>
               </ul>
-            <?php }?>
+            </li>
         </ul>
     </nav> 
     </header>

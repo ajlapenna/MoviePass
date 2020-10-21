@@ -7,5 +7,9 @@
         {
             require_once(VIEWS_PATH."movieList.php");
         }        
+        public function MostrarHome($message = "")
+        {
+            require_once(VIEWS_PATH."home.php");
+        }
     }
 ?>

@@ -6,12 +6,12 @@ class Cinema{
     private $name;
     private $address;
     private $ticketValue;
-    public function __construct($id_cinema , $name,$address , $ticketValue)
-	{
-        $this->id_Cinema = $id_Cinema;
+    public function __construct($id, $name, $address , $ticketValue)
+	{   
+        $this->id_Cinema = $id;
         $this->name = $name;
-        $this->adrress = $address;
-        $this->tickeValue = $ticketValue;
+        $this->address = $address;
+        $this->ticketValue = $ticketValue;
 
     }
     public function getId_Cinema()

@@ -13,7 +13,10 @@
   </footer>
 </div>
 <div class="wrapper row5">
+<input type="submit" class="btn" value="LogOut" style="<?php echo FRONT_ROOT."Nav/SessionDestroy" ?>"/>
+    <br>
   <div id="copyright" class="hoc clear"> 
+  
     <p align="center">Copyright &copy; <?php echo date('Y'); ?> - All Rights Reserved - UTN Mar del Plata</p>
   </div>
 </div>

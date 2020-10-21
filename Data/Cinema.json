@@ -1,0 +1,14 @@
+[
+    {
+        "id_Cinema": "1",
+        "name": "Pablito",
+        "address": "asdgas",
+        "ticketValue": "123"
+    },
+    {
+        "id_Cinema": "2",
+        "name": "asdgjkal",
+        "address": "asdgasg",
+        "ticketValue": "123"
+    }
+]
