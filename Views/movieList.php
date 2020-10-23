@@ -3,22 +3,39 @@ use Controllers\MovieController;
 use Models\Movie;
 
 $MovieController = new MovieController();
+$MovieList = $MovieController->getAPIList();
+$count = 0; $count2 = 0;
+
+/* $count=0;
+        $count2=0;
+        while($count<=3){
+            while($count2<$count*3){
+                echo $list[$count2];
+                $count2 ++;
+            }
+            echo "<br>";
+            $count++;
+        } */
 
 ?>
-<div>
+<div> 
+        <br>
+        <h3 style="font-size: 40px; font-weight: bold">Movies</h3>
     <table class="homeTable">
         <thead>
-
+            
         </thead>
         <tbody>
-          <?php foreach($MovieController->getAPIList() as $movie){ ?>
-            <tr>
+          <tr>
+          <?php while($count<=5){ while($count2<$count*4) {?>
+          
 
-                <td><img src="http://image.tmdb.org/t/p/w500<?php echo $movie->getImage();?>" alt="<?php echo $movie->getTitle(); ?>"></td>
-                <td><h3><?php echo $movie->getTitle();?></h3><hr><p>Descripcion: <?php echo $movie->getOverview();?></p></td>
-                <td><?php echo $movie->getLanguage();?></td>
-            </tr> 
-          <?php } ?>                            
+             <td style="justify-content: center;" ><a href=""><img src="http://image.tmdb.org/t/p/w200<?php echo $MovieList[$count2]->getImage();?>" alt="<?php echo $MovieList[$count2]->getTitle(); ?>"></a></td>
+                
+            
+          <?php $count2++;}?>  
+          </tr>
+          <?php $count++;} ?>  
         </tbody>
         <tfoot>
 

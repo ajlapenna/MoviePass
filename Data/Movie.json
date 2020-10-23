@@ -1,8 +1,8 @@
 {
     "results": [
         {
-            "popularity": 3739.463,
-            "vote_count": 133,
+            "popularity": 2931.926,
+            "vote_count": 151,
             "video": false,
             "poster_path": "\/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
             "id": 528085,
@@ -16,13 +16,13 @@
                 53
             ],
             "title": "2067",
-            "vote_average": 5.9,
+            "vote_average": 5.8,
             "overview": "A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.",
             "release_date": "2020-10-01"
         },
         {
-            "popularity": 1168.889,
-            "vote_count": 2524,
+            "popularity": 868.324,
+            "vote_count": 2556,
             "video": false,
             "poster_path": "\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
             "id": 337401,
@@ -42,8 +42,8 @@
             "release_date": "2020-09-04"
         },
         {
-            "popularity": 1032.342,
-            "vote_count": 147,
+            "popularity": 826.627,
+            "vote_count": 150,
             "video": false,
             "poster_path": "\/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg",
             "id": 694919,
@@ -55,32 +55,36 @@
                 28
             ],
             "title": "Money Plane",
-            "vote_average": 6,
+            "vote_average": 5.9,
             "overview": "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
             "release_date": "2020-09-29"
         },
         {
-            "popularity": 882.81,
-            "vote_count": 435,
+            "popularity": 742.802,
+            "vote_count": 7,
             "video": false,
-            "poster_path": "\/zGVbrulkupqpbwgiNedkJPyQum4.jpg",
-            "id": 592350,
+            "poster_path": "\/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+            "id": 635302,
             "adult": false,
-            "backdrop_path": "\/9guoVF7zayiiUq5ulKQpt375VIy.jpg",
+            "backdrop_path": "\/xoqr4dMbRJnzuhsWDF3XNHQwJ9x.jpg",
             "original_language": "ja",
-            "original_title": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2 THE MOVIE \u30d2\u30fc\u30ed\u30fc\u30ba\uff1a\u30e9\u30a4\u30b8\u30f3\u30b0",
+            "original_title": "\u5287\u5834\u7248\u300c\u9b3c\u6ec5\u306e\u5203\u300d\u7121\u9650\u5217\u8eca\u7de8",
             "genre_ids": [
                 28,
-                16
+                12,
+                16,
+                18,
+                14,
+                36
             ],
-            "title": "My Hero Academia: Heroes Rising",
-            "vote_average": 8.6,
-            "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation \u2026 until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope.",
-            "release_date": "2019-12-20"
+            "title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
+            "vote_average": 8.3,
+            "overview": "Tanjir\u014d Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Ky\u014djur\u014d Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
+            "release_date": "2020-10-16"
         },
         {
-            "popularity": 875.413,
-            "vote_count": 308,
+            "popularity": 715.29,
+            "vote_count": 310,
             "video": false,
             "poster_path": "\/uOw5JD8IlD546feZ6oxbIjvN66P.jpg",
             "id": 718444,
@@ -97,8 +101,8 @@
             "release_date": "2020-08-20"
         },
         {
-            "popularity": 819.844,
-            "vote_count": 495,
+            "popularity": 653.73,
+            "vote_count": 504,
             "video": false,
             "poster_path": "\/qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
             "id": 539885,
@@ -118,8 +122,8 @@
             "release_date": "2020-07-02"
         },
         {
-            "popularity": 733.389,
-            "vote_count": 622,
+            "popularity": 652.72,
+            "vote_count": 634,
             "video": false,
             "poster_path": "\/sy6DvAu72kjoseZEjocnm2ZZ09i.jpg",
             "id": 581392,
@@ -138,8 +142,48 @@
             "release_date": "2020-07-15"
         },
         {
-            "popularity": 493.577,
-            "vote_count": 73,
+            "popularity": 578.561,
+            "vote_count": 439,
+            "video": false,
+            "poster_path": "\/zGVbrulkupqpbwgiNedkJPyQum4.jpg",
+            "id": 592350,
+            "adult": false,
+            "backdrop_path": "\/9guoVF7zayiiUq5ulKQpt375VIy.jpg",
+            "original_language": "ja",
+            "original_title": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2 THE MOVIE \u30d2\u30fc\u30ed\u30fc\u30ba\uff1a\u30e9\u30a4\u30b8\u30f3\u30b0",
+            "genre_ids": [
+                28,
+                16
+            ],
+            "title": "My Hero Academia: Heroes Rising",
+            "vote_average": 8.6,
+            "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation \u2026 until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope.",
+            "release_date": "2019-12-20"
+        },
+        {
+            "popularity": 520.614,
+            "vote_count": 102,
+            "video": false,
+            "poster_path": "\/r4Lm1XKP0VsTgHX4LG4syAwYA2I.jpg",
+            "id": 590223,
+            "adult": false,
+            "backdrop_path": "\/lA5fOBqTOQBQ1s9lEYYPmNXoYLi.jpg",
+            "original_language": "en",
+            "original_title": "Love and Monsters",
+            "genre_ids": [
+                12,
+                35,
+                878,
+                10749
+            ],
+            "title": "Love and Monsters",
+            "vote_average": 7.7,
+            "overview": "Seven years after the Monsterpocalypse, Joel Dawson, along with the rest of humanity, has been living underground ever since giant creatures took control of the land. After reconnecting over radio with his high school girlfriend Aimee, who is now 80 miles away at a coastal colony, Joel begins to fall for her again. As Joel realizes that there\u2019s nothing left for him underground, he decides against all logic to venture out to Aimee, despite all the dangerous monsters that stand in his way.",
+            "release_date": "2020-10-16"
+        },
+        {
+            "popularity": 367.096,
+            "vote_count": 74,
             "video": false,
             "poster_path": "\/4BgSWFMW2MJ0dT5metLzsRWO7IJ.jpg",
             "id": 726739,
@@ -152,57 +196,32 @@
                 35
             ],
             "title": "Cats & Dogs 3: Paws Unite",
-            "vote_average": 6.6,
+            "vote_average": 6.7,
             "overview": "It's been ten years since the creation of the Great Truce, an elaborate joint-species surveillance system designed and monitored by cats and dogs to keep the peace when conflicts arise. But when a tech-savvy villain hacks into wireless networks to use frequencies only heard by cats and dogs, he manipulates them into conflict and the worldwide battle between cats and dogs is BACK ON. Now, a team of inexperienced and untested agents will have to use their old-school animal instincts to restore order and peace between cats and dogs everywhere.",
             "release_date": "2020-10-02"
         },
         {
-            "popularity": 411.226,
-            "vote_count": 45,
+            "popularity": 339.074,
+            "vote_count": 486,
             "video": false,
-            "poster_path": "\/c3SbZPZPOfGMHq7DB7FnTIMQKuY.jpg",
-            "id": 667141,
+            "poster_path": "\/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
+            "id": 613504,
             "adult": false,
-            "backdrop_path": "\/2LL1jHtNKJhTDc3tA1difsAnLui.jpg",
+            "backdrop_path": "\/r5srC0cqU36n38azFnCyReEksiR.jpg",
             "original_language": "en",
-            "original_title": "12 Hour Shift",
+            "original_title": "After We Collided",
             "genre_ids": [
-                35,
-                80,
-                27,
-                53
-            ],
-            "title": "12 Hour Shift",
-            "vote_average": 4.8,
-            "overview": "It's 1998 and over the course of one 12-hour shift at an Arkansas hospital, a junkie nurse, her scheming cousin and a group of black market organ-trading criminals start a heist that could lead to their collective demise.",
-            "release_date": "2020-10-02"
-        },
-        {
-            "popularity": 378.981,
-            "vote_count": 4,
-            "video": false,
-            "poster_path": "\/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
-            "id": 635302,
-            "adult": false,
-            "backdrop_path": "\/xoqr4dMbRJnzuhsWDF3XNHQwJ9x.jpg",
-            "original_language": "ja",
-            "original_title": "\u5287\u5834\u7248\u300c\u9b3c\u6ec5\u306e\u5203\u300d\u7121\u9650\u5217\u8eca\u7de8",
-            "genre_ids": [
-                28,
-                12,
-                16,
                 18,
-                14,
-                36
+                10749
             ],
-            "title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
-            "vote_average": 9.3,
-            "overview": "Tanjir\u014d Kamado, joined with Inosuke Hashibira, a boy raised by boars who wears a boar's head, and Zenitsu Agatsuma, a scared boy who reveals his true power when he sleeps, boards the Infinity Train on a new mission with the Fire Hashira, Ky\u014djur\u014d Rengoku, to defeat a demon who has been tormenting the people and killing the demon slayers who oppose it!",
-            "release_date": "2020-10-16"
+            "title": "After We Collided",
+            "vote_average": 6.5,
+            "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
+            "release_date": "2020-09-02"
         },
         {
-            "popularity": 377.814,
-            "vote_count": 1220,
+            "popularity": 333.532,
+            "vote_count": 1223,
             "video": false,
             "poster_path": "\/7W0G3YECgDAfnuiHG91r8WqgIOe.jpg",
             "id": 446893,
@@ -224,27 +243,8 @@
             "release_date": "2020-03-12"
         },
         {
-            "popularity": 334.272,
-            "vote_count": 481,
-            "video": false,
-            "poster_path": "\/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
-            "id": 613504,
-            "adult": false,
-            "backdrop_path": "\/r5srC0cqU36n38azFnCyReEksiR.jpg",
-            "original_language": "en",
-            "original_title": "After We Collided",
-            "genre_ids": [
-                18,
-                10749
-            ],
-            "title": "After We Collided",
-            "vote_average": 6.5,
-            "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
-            "release_date": "2020-09-02"
-        },
-        {
-            "popularity": 315.895,
-            "vote_count": 83,
+            "popularity": 327.761,
+            "vote_count": 85,
             "video": false,
             "poster_path": "\/ltyARDw2EFXZ2H2ERnlEctXPioP.jpg",
             "id": 425001,
@@ -263,29 +263,29 @@
             "release_date": "2020-08-27"
         },
         {
-            "popularity": 265.619,
-            "vote_count": 62,
+            "popularity": 260.663,
+            "vote_count": 50,
             "video": false,
-            "poster_path": "\/r4Lm1XKP0VsTgHX4LG4syAwYA2I.jpg",
-            "id": 590223,
+            "poster_path": "\/c3SbZPZPOfGMHq7DB7FnTIMQKuY.jpg",
+            "id": 667141,
             "adult": false,
-            "backdrop_path": "\/lA5fOBqTOQBQ1s9lEYYPmNXoYLi.jpg",
+            "backdrop_path": "\/2LL1jHtNKJhTDc3tA1difsAnLui.jpg",
             "original_language": "en",
-            "original_title": "Love and Monsters",
+            "original_title": "12 Hour Shift",
             "genre_ids": [
-                12,
                 35,
-                878,
-                10749
+                80,
+                27,
+                53
             ],
-            "title": "Love and Monsters",
-            "vote_average": 8.1,
-            "overview": "Seven years after the Monsterpocalypse, Joel Dawson, along with the rest of humanity, has been living underground ever since giant creatures took control of the land. After reconnecting over radio with his high school girlfriend Aimee, who is now 80 miles away at a coastal colony, Joel begins to fall for her again. As Joel realizes that there\u2019s nothing left for him underground, he decides against all logic to venture out to Aimee, despite all the dangerous monsters that stand in his way.",
-            "release_date": "2020-10-16"
+            "title": "12 Hour Shift",
+            "vote_average": 5.2,
+            "overview": "It's 1998 and over the course of one 12-hour shift at an Arkansas hospital, a junkie nurse, her scheming cousin and a group of black market organ-trading criminals start a heist that could lead to their collective demise.",
+            "release_date": "2020-10-02"
         },
         {
-            "popularity": 256.219,
-            "vote_count": 26,
+            "popularity": 223.841,
+            "vote_count": 27,
             "video": false,
             "poster_path": "\/22jwKxZf4rcrmh2NS07SZAQYYNY.jpg",
             "id": 604578,
@@ -300,13 +300,13 @@
                 10749
             ],
             "title": "Spontaneous",
-            "vote_average": 7.3,
+            "vote_average": 7.1,
             "overview": "When students in their high school begin inexplicably exploding (literally...), seniors Mara and Dylan struggle to survive in a world where each moment may be their last.",
             "release_date": "2020-10-02"
         },
         {
-            "popularity": 238.312,
-            "vote_count": 399,
+            "popularity": 208.993,
+            "vote_count": 400,
             "video": false,
             "poster_path": "\/hPkqY2EMqWUnFEoedukilIUieVG.jpg",
             "id": 531876,
@@ -326,28 +326,28 @@
             "release_date": "2020-06-24"
         },
         {
-            "popularity": 219.105,
-            "vote_count": 14,
+            "popularity": 193.71,
+            "vote_count": 59,
             "video": false,
-            "poster_path": "\/c59eplVELdwrUfGBUAZVin3HfaL.jpg",
-            "id": 597398,
+            "poster_path": "\/tiuUUPnd3NGrBaF9aGYXXvXameL.jpg",
+            "id": 554311,
             "adult": false,
-            "backdrop_path": "\/ccwPF5jN09S4Cz7u6qs3T2yKOpO.jpg",
-            "original_language": "en",
-            "original_title": "Away",
+            "backdrop_path": "\/yroX00jccBkKwIZ2oXRDcx0NIal.jpg",
+            "original_language": "fr",
+            "original_title": "Zombi Child",
             "genre_ids": [
-                12,
-                16,
-                14
+                18,
+                14,
+                27
             ],
-            "title": "Away",
-            "vote_average": 6.9,
-            "overview": "After suffering a plane crash on a mysterious island, a young man embarks on an epic journey through forests, deserts and mountains trying to escape the shadow of a huge dark spirit.",
-            "release_date": "2019-11-15"
+            "title": "Zombi Child",
+            "vote_average": 6.5,
+            "overview": "Haiti, 1962: A man is brought back from the dead only to be sent to the living hell of the sugarcane fields. In Paris, 55 years later, at the prestigious L\u00e9gion d\u2019honneur boarding school, a Haitian girl confesses an old family secret to a group of new friends - never imagining that this strange tale will convince a heartbroken classmate to do the unthinkable.",
+            "release_date": "2019-06-12"
         },
         {
-            "popularity": 185.699,
-            "vote_count": 726,
+            "popularity": 172.104,
+            "vote_count": 728,
             "video": false,
             "poster_path": "\/4w1ItwCJCTtSi9nPfJC1vU6NIVg.jpg",
             "id": 413518,
@@ -367,49 +367,50 @@
             "release_date": "2019-12-19"
         },
         {
-            "popularity": 160.722,
-            "vote_count": 187,
+            "popularity": 162.529,
+            "vote_count": 15,
             "video": false,
-            "poster_path": "\/flb8qenhvnHr3PtGjOZS2C3oNuf.jpg",
-            "id": 627290,
+            "poster_path": "\/c59eplVELdwrUfGBUAZVin3HfaL.jpg",
+            "id": 597398,
             "adult": false,
-            "backdrop_path": "\/pGqBDYycGWsMYc57sYv5M9GAQoW.jpg",
+            "backdrop_path": "\/ccwPF5jN09S4Cz7u6qs3T2yKOpO.jpg",
             "original_language": "en",
-            "original_title": "Antebellum",
+            "original_title": "Away",
             "genre_ids": [
-                27
+                12,
+                16,
+                14
             ],
-            "title": "Antebellum",
-            "vote_average": 5.9,
-            "overview": "Successful author Veronica finds herself trapped in a horrifying reality and must uncover the mind-bending mystery before it's too late.",
-            "release_date": "2020-09-02"
+            "title": "Away",
+            "vote_average": 7,
+            "overview": "After suffering a plane crash on a mysterious island, a young man embarks on an epic journey through forests, deserts and mountains trying to escape the shadow of a huge dark spirit.",
+            "release_date": "2019-11-15"
         },
         {
-            "popularity": 157.931,
-            "vote_count": 58,
+            "popularity": 143.351,
+            "vote_count": 54,
             "video": false,
-            "poster_path": "\/tiuUUPnd3NGrBaF9aGYXXvXameL.jpg",
-            "id": 554311,
+            "poster_path": "\/vQgXwuJrlpzGDI8169tRQRy71Nv.jpg",
+            "id": 479259,
             "adult": false,
-            "backdrop_path": "\/yroX00jccBkKwIZ2oXRDcx0NIal.jpg",
-            "original_language": "fr",
-            "original_title": "Zombi Child",
+            "backdrop_path": "\/wUP0KIAXcRevjjJpoSKT7LLhiaK.jpg",
+            "original_language": "en",
+            "original_title": "Lost Girls & Love Hotels",
             "genre_ids": [
                 18,
-                14,
-                27
+                53
             ],
-            "title": "Zombi Child",
-            "vote_average": 6.6,
-            "overview": "Haiti, 1962: A man is brought back from the dead only to be sent to the living hell of the sugarcane fields. In Paris, 55 years later, at the prestigious L\u00e9gion d\u2019honneur boarding school, a Haitian girl confesses an old family secret to a group of new friends - never imagining that this strange tale will convince a heartbroken classmate to do the unthinkable.",
-            "release_date": "2019-06-12"
+            "title": "Lost Girls & Love Hotels",
+            "vote_average": 5.3,
+            "overview": "Searching for escape in Tokyo's back alleys, a haunted English teacher explores love and lust with a dashing Yakuza, as their tumultuous affair takes her on a journey through the city's dive bars and three-hour love hotels.",
+            "release_date": "2020-09-18"
         }
     ],
     "page": 1,
-    "total_results": 1395,
+    "total_results": 1418,
     "dates": {
-        "maximum": "2020-10-18",
-        "minimum": "2020-08-31"
+        "maximum": "2020-10-27",
+        "minimum": "2020-09-09"
     },
-    "total_pages": 70
+    "total_pages": 71
 }

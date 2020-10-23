@@ -2,31 +2,38 @@
   <div class="wrapper row1">
     <header id="header" class="hoc clear"> 
       <div id="logo" class="fl_left">
-        <h1><a href="#">MoviePass</a></h1>
+        <h1><a href="<?php echo FRONT_ROOT."Home/Index"?>">MoviePass</a></h1>
       </div>
       <!-- Add path routes below -->
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-            <li class="active">Menu Principal</li>
-            <li><a class="drop" href="#">Peliculas</a>
+            <li class="active">Principal Menu</li>
+            <li><a class="drop" href="#">Movies</a>
               <ul>
-                <!-- <li><a href="<?php echo FRONT_ROOT."" ?>">Agregar</a></li> -->
-                <li><a href="<?php echo FRONT_ROOT ?>">Ver Listado</a></li>
+                <li><a href="<?php echo FRONT_ROOT."Movie/listMovies" ?>">Show List</a></li>
               </ul>
             </li>
             <?php if(!isset($_SESSION["userName"])){ ?>
-            <li><a class="drop" href="#">Iniciar Sesion</a>
+            <li><a class="drop" href="#">Log In</a>
               <ul>
-                <li><a href="<?php echo FRONT_ROOT."LogIn/ShowLogInView" ?>">Iniciar Sesion</a></li>
-                <li><a href=<?php echo FRONT_ROOT."SignUp/ShowSignUpView" ?>>Registrarse</a></li>
+              <li><a href="<?php echo FRONT_ROOT."Session/ShowLogInView" ?>">Log In</a></li>
+                <li><a href="<?php echo FRONT_ROOT."Session/ShowSignUpView" ?>">Sign Up</a></li>
+
               </ul>
             </li>
             <?php } else {?>
+            <li><a class="drop" href="#">Cinemas</a>
               <ul>
-                <li><a href="<?php echo FRONT_ROOT."Admin/ListCinemas" ?>">Ver Cines</a></li>
-                <li><a href=<?php echo FRONT_ROOT."Admin/SessionDestroy" ?>>Cerrar Sesion</a></li>
+              <li><a href="<?php echo FRONT_ROOT."Cinema/ShowAddCinemaView" ?>">Add Cinema</a></li>
+              <li><a href="<?php echo FRONT_ROOT."Cinema/ListCinemas" ?>">Show List</a></li>
               </ul>
-            <?php }?>
+            </li>
+            <li><a class="drop" href="#">Session</a>
+              <ul>
+                <li><a href="<?php echo FRONT_ROOT."Session/SessionDestroy" ?>">Log Out</a></li>
+              </ul>
+            </li> 
+            <?php } ?>
         </ul>
     </nav> 
     </header>

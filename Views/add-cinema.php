@@ -12,6 +12,9 @@
           <table> 
             <thead>
               <tr>
+                <?php if(isset($_SESSION["message"])) {echo $_SESSION["message"];} ?>
+              </tr>
+              <tr>
                 <th>Id</th>
                 <th>Name</th>
                 <th>Adress</th>

@@ -8,33 +8,38 @@
     {       
         private $cinemaDAO;
 
+        public function __construct() {
+            $this->cinemaDAO = new CinemaDAO(); 
+        }
+
         public function ShowAddCinemaView($message = "") {
             require_once(VIEWS_PATH."add-cinema.php");
         }
 
         public function AddCinema($id, $name, $address, $ticketValue)
         {
-            $cinemaDAO = new CinemaDAO();
+            $this->cinemaDAO = new CinemaDAO();
             $newCinema = new Cinema($id, $name, $address, $ticketValue);
             
+            
             if($_POST) {
-                $cinemaDAO->AddCinema($newCinema);
-                echo "<script> if(alert('Cinema added succesfully!'));
-                </script>";
-                $this->ShowAddCinemaView();
+                $this->cinemaDAO->AddCinema($newCinema);
+                $_SESSION["message"] = "Cinema added succesfully!";
+                $this->ShowAddCinemaView("");
             }
             else
             {
-                echo "<script> if(alert('Failed in cinema adding!'));
-                </script>";
+                $_SESSION["message"] = "Failed in cinema adding!";
                 $this->ShowAddCinemaView();
             }
         }
 
-      /*   public function ShowLastId()
-        {
-            $this->cinemaDAO = new CinemaDAO();
-            echo $this->cinemaDAO->GetNextId_cinema();
-        } */
+        public function getCinemaList() {
+            return $this->cinemaDAO->getAllCinema();
+        }
+
+        public function ListCinemas() {
+            require_once(VIEWS_PATH."cinemaList.php");
+        } 
     }
 ?>
