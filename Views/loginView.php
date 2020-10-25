@@ -3,12 +3,18 @@
     <div class="content"> 
       <div id="comments" >
 
-    <h4>Login</h4>
+    <h1>Admin Login</h1>
   </div>
   <div id="comments">
     <form class="login-form" id="mainav" method="post" action="<?php echo FRONT_ROOT."Session/CheckAdminLogin" ?>">
-      <input name="userName" type="Text" placeholder="Nickname" style="max-width: 20%;"/>
-      <input name="password" type="password" placeholder="Password" style="max-width: 20%;"/>
+    <div class="form-group">
+                         <label>Nickname</label>
+                         <input name="userName" type="Text" placeholder="Nickname" style="max-width: 20%;"/>  
+                    </div>
+                    <div class="form-group">
+                         <label >Password</label>
+                         <input name="password" type="password" placeholder="Password" style="max-width: 20%;"/> 
+                    </div>
 <br>
       <input type="submit" value="Log In" class="btn" style="background-color:#DC8E47;color:white;"/>
   

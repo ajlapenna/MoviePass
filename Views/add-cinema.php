@@ -8,14 +8,13 @@
     <div class="content"> 
       <div id="comments" >
         <h2>ADD NEW CINEMA</h2>
-        <form action="<?php echo  FRONT_ROOT."Cinema/AddCinema"?>" method="post">
+        <form action="<?php echo  FRONT_ROOT."Cinema/AddCinema"?>" method="post" style="padding: 2rem !important;">
           <table> 
             <thead>
               <tr>
                 <?php if(isset($_SESSION["message"])) {echo $_SESSION["message"];} ?>
               </tr>
               <tr>
-                <th>Id</th>
                 <th>Name</th>
                 <th>Adress</th>
                 <th>Ticket Value</th>
@@ -24,22 +23,19 @@
             <tbody align="center">
               <tr>
                 <td style="max-width: 100px;">
-                  <input type="number" name="id" min="1" max="999" size="30" placeholder="ID del cine" required>
+                  <input type="text" name="name" min="1" max="999" size="30"  placeholder="Name of the cinema" required>
                 </td>
                 <td>
-                  <input type="text" name="name" size="20" placeholder="Nombre del cine" required>
-                </td>
-                <td>
-                  <input type="text" name="address" size="20" placeholder="Direccion del cine" required>
+                  <input type="text" name="address" size="20" placeholder="Address of the cinema" required>
                 </td>     
                 <td>
-                  <input type="number" name="ticketValue" size="10" placeholder="Precio por ticket" required>
+                  <input type="number" name="ticketValue" size="10" placeholder="Value per ticket" required>
                 </td>         
               </tr>
               </tbody>
           </table>
           <div>
-            <input type="submit" class="btn" value="Add" style="background-color:#DC8E47;color:white;"/>
+            <input type="submit" class="btn" value="Add Cinema" style="background-color:#DC8E47;color:white;"/>
             <br>
           </div>
         </form>
@@ -47,8 +43,6 @@
     </div>
   </main>
 </div>
-
-
 <?php 
   include('footer.php');
 ?>

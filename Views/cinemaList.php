@@ -1,37 +1,49 @@
-<?php
-use Controllers\CinemaController;
-use Models\Cinema;
-
-$CinemaController = new CinemaController();
-
+<?php 
+ include('header.php');
+ 
 ?>
-<div>
-    <table class="homeTable">
-        <thead>
+<div class="wrapper row4">
+  <main class="hoc container clear"> 
+    <div class="content"> 
+      <div class="scrollable">
+      <form action="<?php echo FRONT_ROOT."Cinema/Remove"?> " method="post">
+        <table style="text-align:center;">
+          <thead>
             <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Adress</th>
-                <th>Ticket Value</th>
-                <th style="max-width: 20%;">Action</th>
+           
+            <th style="width: 20%;">Name</th>
+            <th style="width: 20%;">Adress</th>
+            <th style="width: 15%;">Ticket Value</th>
+            <th style="width: 30%;" > Action</th>
             </tr>
-        </thead>
-        <tbody>
-          <?php foreach($CinemaController->getCinemaList() as $Cinema){ ?>
+          </thead>
+          <tbody>
+          <?php foreach($cinemaList as $Cinema)
+          {
+               ?>
             <tr>
-                <td> <?php echo $Cinema->GetId_Cinema(); ?></td>
                 <td> <?php echo $Cinema->GetName(); ?> </td>
                 <td> <?php echo $Cinema->GetAddress(); ?> </td>
                 <td> <?php echo $Cinema->GetTicketValue(); ?> </td>
-                <td style="max-width: 20%;"> <form action=""><input type="submit" value="Delete" class="" style="center;background-color:#DC8E47;color:white; display:inline"/>
-                <input type="submit" value="Show Functions" class="" style="background-color:#DC8E47;color:white;display:inline; padding: 0"/></form> </td>
-
+           
+                <td>
+                <button type="submit" name="id_Cinema" class="btn" value="<?php echo $Cinema->GetId_Cinema() ?>"style="font-size: 12px"> Remove </button>
+                <button type="submit" name="" class="btn" value="Show Functions"style="margin-left: 10px"> Show Functions </button>
+                </td>
+                
             </tr> 
-          <?php } ?>                            
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-
+          <?php 
+        }
+         ?>                
+        </tbody></form>
+        </table> 
+      </div>
+    </div>
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
 </div>
+
+<?php 
+  include('footer.php');
+?>

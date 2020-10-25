@@ -14,19 +14,18 @@ class CinemaDao implements Icinema
     {
       $this->fileJsonCinema = ROOT."/Data/Cinema.json";
     }
-
-/*     public function GetNextId_cinema(){
-        $id_cinema = 0;
+    public function GetNextId_cinema(){
+        $id = 0;
 
         foreach($this->listCinema as $cinema){
-            $id = ($cinema->getId_Cinema() > $id_cinema) ?$cinema->getId_Cinema() : $id_cinema;
+            $id = ($cinema->getId_Cinema() > $id) ?$cinema->getId_Cinema() : $id;
         }
-        return $id_cinema + 1;
+        return $id + 1;
     }
- */
+ 
     public function addCinema(Cinema $cinema){
         $this->retrieveData();
-        /* $cinema->setId_Cinema($this->GetNextId_cinema()); */
+        $cinema->setId_Cinema($this->GetNextId_cinema());
         array_push($this->listCinema, $cinema);
         $this->saveData();
     }

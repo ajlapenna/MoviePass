@@ -16,14 +16,19 @@
             require_once(VIEWS_PATH."add-cinema.php");
         }
 
-        public function AddCinema($id, $name, $address, $ticketValue)
+        public function ShowListCinemaView()
         {
-            $this->cinemaDAO = new CinemaDAO();
-            $newCinema = new Cinema($id, $name, $address, $ticketValue);
+            $cinemaList = $this->cinemaDAO->getAllCinema();
             
+            require_once(VIEWS_PATH."CinemaList.php");
+        }
+
+        public function AddCinema($name, $address, $ticketValue)
+        {
+            $newCinema = new Cinema(0, $name, $address, $ticketValue);
             
             if($_POST) {
-                $this->cinemaDAO->AddCinema($newCinema);
+                $this->cinemaDAO->addCinema($newCinema);
                 $_SESSION["message"] = "Cinema added succesfully!";
                 $this->ShowAddCinemaView("");
             }
@@ -33,13 +38,14 @@
                 $this->ShowAddCinemaView();
             }
         }
+       
+        
+        public function Remove($id)
+        {
+            $this->cinemaDAO->deleteCinema($id);
 
-        public function getCinemaList() {
-            return $this->cinemaDAO->getAllCinema();
+            $this->ShowListcinemaView();
         }
-
-        public function ListCinemas() {
-            require_once(VIEWS_PATH."cinemaList.php");
-        } 
     }
+    
 ?>
