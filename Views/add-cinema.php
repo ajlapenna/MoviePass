@@ -17,7 +17,8 @@
               <tr>
                 <th>Name</th>
                 <th>Adress</th>
-                <th>Ticket Value</th>
+                <th>Capacity</th>
+                  <th>Ticket Value</th>
               </tr>
             </thead>
             <tbody align="center">
@@ -27,8 +28,11 @@
                 </td>
                 <td>
                   <input type="text" name="address" size="20" placeholder="Address of the cinema" required>
-                </td>     
-                <td>
+                </td>
+                  <td>
+                      <input type="number" name="capacity" size="10" placeholder="Max capacity" required>
+                  </td>
+                  <td>
                   <input type="number" name="ticketValue" size="10" placeholder="Value per ticket" required>
                 </td>         
               </tr>

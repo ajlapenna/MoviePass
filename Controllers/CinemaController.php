@@ -23,9 +23,9 @@
             require_once(VIEWS_PATH."CinemaList.php");
         }
 
-        public function AddCinema($name, $address, $ticketValue)
+        public function AddCinema($name, $address, $capacity, $ticketValue)
         {
-            $newCinema = new Cinema(0, $name, $address, $ticketValue);
+            $newCinema = new Cinema(0, $name, $address, $capacity, $ticketValue);
             
             if($_POST) {
                 $this->cinemaDAO->addCinema($newCinema);
