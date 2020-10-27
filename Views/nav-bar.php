@@ -7,21 +7,26 @@
       <!-- Add path routes below -->
       <nav id="mainav" class="fl_right">
         <ul class="clear">
-            <li class="active">Principal Menu</li>
+            <li class="active">main menu</li>
             <li><a class="drop" href="#">Movies</a>
               <ul>
                 <li><a href="<?php echo FRONT_ROOT."Movie/listMovies" ?>">Show List</a></li>
               </ul>
             </li>
-            <?php if(!isset($_SESSION["userName"])){ ?>
+            <?php if(!isset($_SESSION["loginUser"])){ ?>
             <li><a class="drop" href="#">Log In</a>
               <ul>
               <li><a href="<?php echo FRONT_ROOT."Session/ShowLogInView" ?>">Log In</a></li>
                 <li><a href="<?php echo FRONT_ROOT."Session/ShowSignUpView" ?>">Sign Up</a></li>
 
+      </ul>
               </ul>
             </li>
-            <?php } else {?>
+            <?php 
+           }
+           else
+           {
+             ?>
             <li><a class="drop" href="#">Cinemas</a>
               <ul>
               <li><a href="<?php echo FRONT_ROOT."Cinema/ShowAddCinemaView" ?>">Add Cinema</a></li>

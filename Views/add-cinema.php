@@ -24,16 +24,16 @@
             <tbody align="center">
               <tr>
                 <td style="max-width: 100px;">
-                  <input type="text" name="name" min="1" max="999" size="30"  placeholder="Name of the cinema" required>
+                  <input type="text" name="name" min="1" max="30" size="30"  placeholder="Name of the cinema" required>
                 </td>
                 <td>
-                  <input type="text" name="address" size="20" placeholder="Address of the cinema" required>
+                  <input type="text" name="address" size="20" min="1" max="30" placeholder="Address of the cinema" required>
                 </td>
                   <td>
-                      <input type="number" name="capacity" size="10" placeholder="Max capacity" required>
+                      <input type="number" name="capacity" size="10" min="50" max="200" placeholder="Max capacity" required>
                   </td>
                   <td>
-                  <input type="number" name="ticketValue" size="10" placeholder="Value per ticket" required>
+                  <input type="number" name="ticketValue" size="10" min ="300" max="700" placeholder="Value per ticket" required>
                 </td>         
               </tr>
               </tbody>
