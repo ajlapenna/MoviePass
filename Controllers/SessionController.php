@@ -22,13 +22,12 @@
         } 
         public function ShowLogInView($message = "")
         {
-            
-            require_once(VIEWS_PATH."loginView.php");
+            require_once(VIEWS_PATH."login.php");
         }       
 
-        public function ShowAddCinema() {
+        public function ShowAddCinema($message = "") {
             require_once(VIEWS_PATH."validate-session.php");
-            require_once(VIEWS_PATH."add-cinema.php");
+            require_once(VIEWS_PATH."cinema-add.php");
         }
         
     
@@ -43,7 +42,7 @@
                 $this->ShowAddCinema();
             }
             else{
-                $this->ShowLogInView("incorrec user");
+                $this->ShowLogInView("incorrect user");
             }
         }
         

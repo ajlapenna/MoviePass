@@ -12,7 +12,7 @@
           <table> 
             <thead>
               <tr>
-                <?php if(isset($_SESSION["message"])) {echo $_SESSION["message"];} ?>
+              <?php if($message){ echo "<h3>". $message ."</h3><br>";}?>
               </tr>
               <tr>
                 <th>Name</th>

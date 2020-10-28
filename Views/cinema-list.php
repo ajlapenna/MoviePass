@@ -28,7 +28,7 @@
            
                 <td>
                 <button type="submit" name="id_Cinema" class="btn" value="<?php echo $Cinema->GetId_Cinema() ?>"style="font-size: 12px"> Remove </button>
-                <button type="submit" name="" class="btn" value="Show Functions"style="margin-left: 10px"> Show Functions </button>
+                <button type="submit" name="" class="btn" value="Show Functions"style="margin-left: 10px, font-size: 8px"> Show Functions </button>
                 </td>
                 
             </tr> 

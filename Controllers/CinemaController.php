@@ -13,14 +13,15 @@
         }
 
         public function ShowAddCinemaView($message = "") {
-            require_once(VIEWS_PATH."add-cinema.php");
+            
+            require_once(VIEWS_PATH."cinema-add.php");
         }
 
         public function ShowListCinemaView()
         {
             $cinemaList = $this->cinemaDAO->getAllCinema();
             
-            require_once(VIEWS_PATH."CinemaList.php");
+            require_once(VIEWS_PATH."cinema-list.php");
         }
 
         public function AddCinema($name, $address, $capacity, $ticketValue)
@@ -29,13 +30,15 @@
             
             if($_POST) {
                 $this->cinemaDAO->addCinema($newCinema);
-                $_SESSION["message"] = "Cinema added succesfully!";
-                $this->ShowAddCinemaView("");
+                /* $_SESSION["message"] = "Cinema added succesfully!"; */
+                $message = "Cinema added succesfully!";
+                $this->ShowAddCinemaView($message);
             }
             else
             {
-                $_SESSION["message"] = "Failed in cinema adding!";
-                $this->ShowAddCinemaView();
+                /* $_SESSION["message"] = "Failed in cinema adding!"; */
+                $message = "Failed in cinema adding!";
+                $this->ShowAddCinemaView("Failed in cinema adding!");
             }
         }
        
