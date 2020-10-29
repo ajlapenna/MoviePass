@@ -16,7 +16,10 @@
             
             require_once(VIEWS_PATH."cinema-add.php");
         }
-
+        public function ShowModififyView($message =""){
+            
+            require_once(VIEWS_PATH."cinema-modify.php");
+        }
         public function ShowListCinemaView()
         {
             $cinemaList = $this->cinemaDAO->getAllCinema();
@@ -30,14 +33,11 @@
             
             if($_POST) {
                 $this->cinemaDAO->addCinema($newCinema);
-                /* $_SESSION["message"] = "Cinema added succesfully!"; */
                 $message = "Cinema added succesfully!";
                 $this->ShowAddCinemaView($message);
             }
             else
             {
-                /* $_SESSION["message"] = "Failed in cinema adding!"; */
-                $message = "Failed in cinema adding!";
                 $this->ShowAddCinemaView("Failed in cinema adding!");
             }
         }
@@ -46,9 +46,25 @@
         public function Remove($id)
         {
             $this->cinemaDAO->deleteCinema($id);
-
             $this->ShowListcinemaView();
         }
+    
+    public function modifyANDremover($id){
+
+        if(isset($_POST['id_remove'])){
+        $this->Remove($id);
+        }elseif(isset($_POST['id_modify'])){
+           $_SESSION['id'] = $id;
+           $this->ShowModififyView();
+         }
     }
+
+    public function modify($name,$address,$capacity,$ticketValue){
+        $id = $_SESSION['id'];
+      $this->cinemaDAO->modifyCinema($id,$name,$address,$capacity,$ticketValue);
+      $this->ShowListCinemaView("Cinema modify succesfully!");
+        }
+    
+}
     
 ?>
