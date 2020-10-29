@@ -24,6 +24,7 @@
         {
             require_once(VIEWS_PATH."login.php");
         }       
+       
 
         public function ShowAddCinema($message = "") {
             require_once(VIEWS_PATH."validate-session.php");
@@ -49,7 +50,9 @@
         //LogOutFunction
 
         public function SessionDestroy(){
+                
                 session_destroy();
+
                 $this->ShowLogInView();
          }
 
