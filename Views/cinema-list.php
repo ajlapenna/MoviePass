@@ -6,7 +6,7 @@
   <main class="hoc container clear"> 
     <div class="content"> 
       <div class="scrollable">
-      <form action="<?php echo FRONT_ROOT."Cinema/Remove"?> " method="post">
+      <form action="<?php echo FRONT_ROOT."Cinema/modifyANDremover"?> " method="post">
         <table style="text-align:center;">
           <thead>
             <tr>
@@ -27,7 +27,8 @@
                 <td> <?php echo $Cinema->GetTicketValue(); ?> </td>
            
                 <td>
-                <button type="submit" name="id_Cinema" class="btn" value="<?php echo $Cinema->GetId_Cinema() ?>"style="font-size: 12px"> Remove </button>
+                <button type="submit" name="id_remove" class="btn" value="<?php echo $Cinema->GetId_Cinema() ?>"style="font-size: 12px"> Remove </button>
+                <button type="submit" name="id_modify" class="btn" value="<?php echo $Cinema->GetId_Cinema() ?>"style="font-size: 12px"> modify </button>
                 <button type="submit" name="" class="btn" value="Show Functions"style="margin-left: 10px, font-size: 8px"> Show Functions </button>
                 </td>
                 
