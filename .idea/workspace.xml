@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3f975fd1-c230-4ae8-a537-386ef5fee2cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Controllers/SessionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/SessionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/Movie.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/Movie.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/cinema-add.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/cinema-add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/cinema-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/cinema-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/movie-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/movie-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/nav-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/nav-bar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Screening.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Screening.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +54,22 @@
       <option name="presentableId" value="Default" />
       <updated>1603922820583</updated>
       <workItem from="1603922822355" duration="2372000" />
-      <workItem from="1604097019470" duration="1732000" />
+      <workItem from="1604097019470" duration="3327000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
