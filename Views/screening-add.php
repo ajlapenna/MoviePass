@@ -1,5 +1,13 @@
 <?php
+
+use Controllers\CinemaController;
+
 include('header.php');
+
+$NewCinemaController = new CinemaController();
+$Cinemas_List = $NewCinemaController->getCinemasList();
+
+
 
 ?>
 
@@ -9,7 +17,7 @@ include('header.php');
             <div id="comments">
                 <h2>ADD NEW SCREENING</h2>
                 <form action="<?php echo  FRONT_ROOT . "Screening/AddScreening" ?>" method="post" style="padding: 2rem !important;">
-                    <table style="width: 60%;">
+                    <table style="width: 75%;">
                         <thead>
                             <tr>
                                 <?php if ($message) {
@@ -29,25 +37,25 @@ include('header.php');
                                 <td style="max-width: 100px; align-items: center;">
                                     <select name="cinema" id="cinema_screening" style="width: 100%; margin-top: 10px;" required>
                                             <option value="" disable_selected>--Choose a Cinema--</option>
-                                            <option value="Cine1">Cine1</option>
-                                            <option value="Cine2">Cine2</option>
-                                            <option value="Cine3">Cine3</option>
+                                            <?php foreach($Cinemas_List as $Cinema){ ?>
+                                            <option value="<?php echo $Cinema->getName(); ?>"><?php echo $Cinema->getName();?></option>
+                                            <?php } ?>
                                     </select>
                                 </td>
-                                <td>
-                                <select name="cinema" id="cinema_screening" style="width: 100%; margin-top: 10px;" required>
+                                <td style="width: 15%;">
+                                <select name="day_screening" id="day_screening" style="width: 100%; margin-top: 10px;" required>
                                             <option value="" disable_selected>--Choose a day--</option>
-                                            <option value="Lunes">Lunes</option>
-                                            <option value="Martes">Martes</option>
-                                            <option value="Miercoles">Miercoles</option>
-                                            <option value="Jueves">Jueves</option>
-                                            <option value="Viernes">Viernes</option>
-                                            <option value="Sabado">Sabado</option>
-                                            <option value="Domingo">Domingo</option>
+                                            <option value="Mon">Lunes</option>
+                                            <option value="Tue">Martes</option>
+                                            <option value="Wed">Miercoles</option>
+                                            <option value="Thu">Jueves</option>
+                                            <option value="Fri">Viernes</option>
+                                            <option value="Sat">Sabado</option>
+                                            <option value="Sun">Domingo</option>
                                     </select>
                                 </td>
                                 <td>
-                                <select name="cinema" id="cinema_screening" style="width: 100%; margin-top: 10px;" required>
+                                <select name="hour_screening" id="hour_screening" style="width: 100%; margin-top: 10px;" required>
                                             <option value="" disable_selected>--Choose a screening--</option>
                                             <option value="Lunes">Horario1 (14:10)</option>
                                             <option value="Lunes">Horario2 (18:15)</option>

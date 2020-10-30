@@ -5,5 +5,12 @@
         "address": "Cordoba 1673",
         "capacity": "50",
         "ticketValue": "300"
+    },
+    {
+        "id_Cinema": 6,
+        "name": "Cine del Paseo",
+        "address": "Diagonal Pueyrred\u00f3n 3058",
+        "capacity": "200",
+        "ticketValue": "400"
     }
 ]

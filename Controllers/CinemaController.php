@@ -40,14 +40,18 @@
                 $message = "Failed in cinema adding!";
                 $this->ShowAddCinemaView("Failed in cinema adding!");
             }
-        }
-       
+        }       
         
         public function Remove($id)
         {
             $this->cinemaDAO->deleteCinema($id);
 
             $this->ShowListcinemaView();
+        }
+
+        public function getCinemasList() {
+
+            return $this->cinemaDAO->getAllCinema();
         }
     }
     

@@ -7,15 +7,15 @@
     class Screening {
 
         private $id_screening; //Screening ID
-        private $week_day_screening; //Screening Day
-        private $hour_screening; //Screening Hate
-        private $room_screening; //Room where the movie is goin to be Screened
+        private $date_screening; //Screening Date
+        private $hour_screening; //Screening Hour
         private $id_movie_screening; //Movie_ID to be screened 
         private $id_cinema_screening; //Cinema_ID where it gonna be screened the movie
 
-        public function __construct($id_screening, $date_screening, $id_movie_screening, $id_cinema_screening) {
+        public function __construct($id_screening, $date_screening, $hour_screening, $id_movie_screening, $id_cinema_screening) {
             $this->id_screening = $id_screening;
             $this->date_screening = $date_screening;
+            $this->hour_screening = $hour_screening;
             $this->id_movie_screening = $id_movie_screening;
             $this->id_cinema_screening = $id_cinema_screening;
         }
@@ -58,6 +58,16 @@
         public function setId_cinema_screening($id_cinema_screening)
         {
                 $this->id_cinema_screening = $id_cinema_screening;
+        }
+
+        public function getHour_screening()
+        {
+                return $this->hour_screening;
+        }
+
+        public function setHour_screening($hour_screening)
+        {
+                $this->hour_screening = $hour_screening;
         }
     }
 

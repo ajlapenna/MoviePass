@@ -40,6 +40,28 @@
             "release_date": "2020-10-01"
         },
         {
+            "popularity": 1591.383,
+            "vote_count": 305,
+            "video": false,
+            "poster_path": "\/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+            "id": 531219,
+            "adult": false,
+            "backdrop_path": "\/8rIoyM6zYXJNjzGseT3MRusMPWl.jpg",
+            "original_language": "en",
+            "original_title": "Roald Dahl's The Witches",
+            "genre_ids": [
+                14,
+                10751,
+                12,
+                35,
+                27
+            ],
+            "title": "Roald Dahl's The Witches",
+            "vote_average": 7.3,
+            "overview": "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
+            "release_date": "2020-10-26"
+        },
+        {
             "popularity": 1109.5,
             "vote_count": 20,
             "video": false,
@@ -63,28 +85,6 @@
             "release_date": "2020-10-16"
         },
         {
-            "popularity": 1591.383,
-            "vote_count": 305,
-            "video": false,
-            "poster_path": "\/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
-            "id": 531219,
-            "adult": false,
-            "backdrop_path": "\/f2rYRh4TmhHZutQR2wL2tm97G6I.jpg",
-            "original_language": "en",
-            "original_title": "Roald Dahl's The Witches",
-            "genre_ids": [
-                12,
-                35,
-                14,
-                27,
-                10751
-            ],
-            "title": "Roald Dahl's The Witches",
-            "vote_average": 7.3,
-            "overview": "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
-            "release_date": "2020-10-26"
-        },
-        {
             "popularity": 902.112,
             "vote_count": 205,
             "video": false,
@@ -104,27 +104,6 @@
             "vote_average": 7.7,
             "overview": "Seven years after the Monsterpocalypse, Joel Dawson, along with the rest of humanity, has been living underground ever since giant creatures took control of the land. After reconnecting over radio with his high school girlfriend Aimee, who is now 80 miles away at a coastal colony, Joel begins to fall for her again. As Joel realizes that there\u2019s nothing left for him underground, he decides against all logic to venture out to Aimee, despite all the dangerous monsters that stand in his way.",
             "release_date": "2020-10-16"
-        },
-        {
-            "popularity": 613.467,
-            "vote_count": 2672,
-            "video": false,
-            "poster_path": "\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
-            "id": 337401,
-            "adult": false,
-            "backdrop_path": "\/zzWGRw277MNoCs3zhyG3YmYQsXv.jpg",
-            "original_language": "en",
-            "original_title": "Mulan",
-            "genre_ids": [
-                28,
-                12,
-                18,
-                14
-            ],
-            "title": "Mulan",
-            "vote_average": 7.3,
-            "overview": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
-            "release_date": "2020-09-04"
         },
         {
             "popularity": 651.132,
@@ -148,6 +127,24 @@
             "release_date": "2020-08-20"
         },
         {
+            "popularity": 638.944,
+            "vote_count": 156,
+            "video": false,
+            "poster_path": "\/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg",
+            "id": 694919,
+            "adult": false,
+            "backdrop_path": "\/pq0JSpwyT2URytdFG0euztQPAyR.jpg",
+            "original_language": "en",
+            "original_title": "Money Plane",
+            "genre_ids": [
+                28
+            ],
+            "title": "Money Plane",
+            "vote_average": 5.9,
+            "overview": "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
+            "release_date": "2020-09-29"
+        },
+        {
             "popularity": 631.045,
             "vote_count": 1054,
             "video": false,
@@ -165,24 +162,6 @@
             "vote_average": 7.2,
             "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
             "release_date": "2020-09-02"
-        },
-        {
-            "popularity": 638.944,
-            "vote_count": 156,
-            "video": false,
-            "poster_path": "\/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg",
-            "id": 694919,
-            "adult": false,
-            "backdrop_path": "\/pq0JSpwyT2URytdFG0euztQPAyR.jpg",
-            "original_language": "en",
-            "original_title": "Money Plane",
-            "genre_ids": [
-                28
-            ],
-            "title": "Money Plane",
-            "vote_average": 5.9,
-            "overview": "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
-            "release_date": "2020-09-29"
         },
         {
             "popularity": 624.425,
@@ -204,6 +183,27 @@
             "vote_average": 5.8,
             "overview": "A black ops assassin is forced to fight for her own survival after a job goes dangerously wrong.",
             "release_date": "2020-07-02"
+        },
+        {
+            "popularity": 613.467,
+            "vote_count": 2672,
+            "video": false,
+            "poster_path": "\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
+            "id": 337401,
+            "adult": false,
+            "backdrop_path": "\/zzWGRw277MNoCs3zhyG3YmYQsXv.jpg",
+            "original_language": "en",
+            "original_title": "Mulan",
+            "genre_ids": [
+                28,
+                12,
+                18,
+                14
+            ],
+            "title": "Mulan",
+            "vote_average": 7.3,
+            "overview": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
+            "release_date": "2020-09-04"
         },
         {
             "popularity": 607.834,
@@ -242,6 +242,47 @@
             "vote_average": 6.2,
             "overview": "A recently widowed traveler is kidnapped by a cold blooded killer, only to escape into the wilderness where she is forced to battle against the elements as her pursuer closes in on her.",
             "release_date": "2020-09-10"
+        },
+        {
+            "popularity": 400.351,
+            "vote_count": 155,
+            "video": false,
+            "poster_path": "\/lQfdytwN7eh0tXWjIiMceFdBBvD.jpg",
+            "id": 560050,
+            "adult": false,
+            "backdrop_path": "\/htBUhLSS7FfHtydgYxUWjL3J1Q1.jpg",
+            "original_language": "en",
+            "original_title": "Over the Moon",
+            "genre_ids": [
+                12,
+                16,
+                14,
+                10751
+            ],
+            "title": "Over the Moon",
+            "vote_average": 7.9,
+            "overview": "A girl builds a rocket to travel to the moon in hopes of meeting the legendary Moon Goddess.",
+            "release_date": "2020-10-16"
+        },
+        {
+            "popularity": 293.355,
+            "vote_count": 94,
+            "video": false,
+            "poster_path": "\/ltyARDw2EFXZ2H2ERnlEctXPioP.jpg",
+            "id": 425001,
+            "adult": false,
+            "backdrop_path": "\/4gKyQ1McHa8ZKDsYoyKQSevF01J.jpg",
+            "original_language": "en",
+            "original_title": "The War with Grandpa",
+            "genre_ids": [
+                35,
+                18,
+                10751
+            ],
+            "title": "The War with Grandpa",
+            "vote_average": 6.2,
+            "overview": "Sixth-grader Peter is pretty much your average kid\u2014he likes gaming, hanging with his friends and his beloved pair of Air Jordans. But when his recently widowed grandfather Ed  moves in with Peter\u2019s family, the boy is forced to give up his most prized possession of all, his bedroom. Unwilling to let such an injustice stand, Peter devises a series of increasingly elaborate pranks to drive out the interloper, but Grandpa Ed won\u2019t go without a fight.",
+            "release_date": "2020-08-27"
         },
         {
             "popularity": 290.758,
@@ -285,45 +326,25 @@
             "release_date": "2020-03-12"
         },
         {
-            "popularity": 293.355,
-            "vote_count": 94,
+            "popularity": 265.031,
+            "vote_count": 65,
             "video": false,
-            "poster_path": "\/ltyARDw2EFXZ2H2ERnlEctXPioP.jpg",
-            "id": 425001,
+            "poster_path": "\/zfdhsR3Y3xw42OHrMpi0oBw0Uk8.jpg",
+            "id": 741074,
             "adult": false,
-            "backdrop_path": "\/4gKyQ1McHa8ZKDsYoyKQSevF01J.jpg",
+            "backdrop_path": "\/DA7gzvlBoxMNL0XmGgTZOyv67P.jpg",
             "original_language": "en",
-            "original_title": "The War with Grandpa",
+            "original_title": "Once Upon a Snowman",
             "genre_ids": [
-                35,
-                18,
-                10751
-            ],
-            "title": "The War with Grandpa",
-            "vote_average": 6.2,
-            "overview": "Sixth-grader Peter is pretty much your average kid\u2014he likes gaming, hanging with his friends and his beloved pair of Air Jordans. But when his recently widowed grandfather Ed  moves in with Peter\u2019s family, the boy is forced to give up his most prized possession of all, his bedroom. Unwilling to let such an injustice stand, Peter devises a series of increasingly elaborate pranks to drive out the interloper, but Grandpa Ed won\u2019t go without a fight.",
-            "release_date": "2020-08-27"
-        },
-        {
-            "popularity": 400.351,
-            "vote_count": 155,
-            "video": false,
-            "poster_path": "\/lQfdytwN7eh0tXWjIiMceFdBBvD.jpg",
-            "id": 560050,
-            "adult": false,
-            "backdrop_path": "\/htBUhLSS7FfHtydgYxUWjL3J1Q1.jpg",
-            "original_language": "en",
-            "original_title": "Over the Moon",
-            "genre_ids": [
-                12,
                 16,
+                35,
                 14,
                 10751
             ],
-            "title": "Over the Moon",
-            "vote_average": 7.9,
-            "overview": "A girl builds a rocket to travel to the moon in hopes of meeting the legendary Moon Goddess.",
-            "release_date": "2020-10-16"
+            "title": "Once Upon a Snowman",
+            "vote_average": 7.4,
+            "overview": "The previously untold origins of Olaf, the innocent and insightful, summer-loving snowman are revealed as we follow Olaf\u2019s first steps as he comes to life and searches for his identity in the snowy mountains outside Arendelle.",
+            "release_date": "2020-10-23"
         },
         {
             "popularity": 259.417,
@@ -385,34 +406,13 @@
             "vote_average": 6.7,
             "overview": "A small unit of U.S. soldiers, alone at the remote Combat Outpost Keating, located deep in the valley of three mountains in Afghanistan, battles to defend against an overwhelming force of Taliban fighters in a coordinated attack. The Battle of Kamdesh, as it was known, was the bloodiest American engagement of the Afghan War in 2009 and Bravo Troop 3-61 CAV became one of the most decorated units of the 19-year conflict.",
             "release_date": "2020-06-24"
-        },
-        {
-            "popularity": 200.969,
-            "vote_count": 40,
-            "video": false,
-            "poster_path": "\/22jwKxZf4rcrmh2NS07SZAQYYNY.jpg",
-            "id": 604578,
-            "adult": false,
-            "backdrop_path": "\/324jDHMRHWZ8HLbjRJNwVPYJZT0.jpg",
-            "original_language": "en",
-            "original_title": "Spontaneous",
-            "genre_ids": [
-                35,
-                27,
-                878,
-                10749
-            ],
-            "title": "Spontaneous",
-            "vote_average": 7.1,
-            "overview": "When students in their high school begin inexplicably exploding (literally...), seniors Mara and Dylan struggle to survive in a world where each moment may be their last.",
-            "release_date": "2020-10-02"
         }
     ],
     "page": 1,
-    "total_results": 1470,
+    "total_results": 1491,
     "dates": {
         "maximum": "2020-11-04",
         "minimum": "2020-09-17"
     },
-    "total_pages": 74
+    "total_pages": 75
 }

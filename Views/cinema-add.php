@@ -8,7 +8,7 @@
     <div class="content"> 
       <div id="comments" >
         <h2>ADD NEW CINEMA</h2>
-        <form action="<?php echo  FRONT_ROOT."Cinema/AddCinema"?>" method="post" style="padding: 2rem !important;">
+        <form action="<?php echo  FRONT_ROOT."Cinema/AddCinema"?>" method="post" style="padding: 2rem !important;" >
           <table> 
             <thead>
               <tr>
