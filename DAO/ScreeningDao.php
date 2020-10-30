@@ -83,7 +83,18 @@ class ScreeningDao implements Iscreening
         
 		$jsonContent = json_encode($arrayToEncode, JSON_PRETTY_PRINT);
 		file_put_contents($this->fileNameScreening, $jsonContent);
-	}
+    }
+    
+    protected function mapear($value) {
+
+        $value = is_array($value) ? $value : [];
+
+        $resp = array_map(function($p){
+            return new Screening($p['id_screening'], $p['date_screening'], $p['id_movie_screening'], $p['id_cinema_screening']);
+        }, $value);
+
+        return count($resp) > 1 ? $resp : $resp['0'];
+    }
 	
 
 }

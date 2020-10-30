@@ -1,33 +1,5 @@
 [
     {
-        "id_Cinema": 1,
-        "name": "Ambassador",
-        "address": "Cordoba 1673",
-        "capacity": "50",
-        "ticketValue": "300"
-    },
-    {
-        "id_Cinema": 2,
-        "name": "Ambassador",
-        "address": "Cordoba 1673",
-        "capacity": "50",
-        "ticketValue": "300"
-    },
-    {
-        "id_Cinema": 3,
-        "name": "Ambassador",
-        "address": "Cordoba 1673",
-        "capacity": "50",
-        "ticketValue": "300"
-    },
-    {
-        "id_Cinema": 4,
-        "name": "Ambassador",
-        "address": "Cordoba 1673",
-        "capacity": "50",
-        "ticketValue": "300"
-    },
-    {
         "id_Cinema": 5,
         "name": "Ambassador",
         "address": "Cordoba 1673",
