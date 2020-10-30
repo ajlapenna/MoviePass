@@ -10,7 +10,6 @@ $Cinemas_List = $NewCinemaController->getCinemasList();
 
 
 ?>
-
 <div class="wrapper row4">
     <main class="container clear">
         <div class="content">

@@ -47,7 +47,23 @@ class CinemaDao implements Icinema
         return $this->listCinema;
     
     }
-
+    public function modifyCinema($id_Cinema,$name,$address,$capacity,$ticketValue){
+        $this->retrieveData();
+		$newList = array();
+		foreach ($this->listCinema as $cinema ) {
+			if( $cinema->getId_Cinema()!= $id_Cinema){
+				array_push($newList,$cinema);
+            }else{
+                $cinema->setName($name);
+                $cinema->setAddress($address);
+                $cinema->setCapacity($capacity);
+                $cinema->setTicketValue($ticketValue);
+                array_push($newList,$cinema);
+            }
+		}
+		$this->listCinema = $newList;
+		$this->saveData();
+    }
  private function retrieveData(){
 
        $this->listCinema = array();

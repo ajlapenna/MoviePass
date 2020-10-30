@@ -1,19 +1,16 @@
 <?php 
  include('header.php');
-include('nav-bar.php');
+ include('nav-bar.php');
 ?>
 
 <div class="wrapper row4">
 <main class="container clear"> 
     <div class="content"> 
       <div id="comments" >
-        <h2>ADD NEW CINEMA</h2>
-        <form action="<?php echo  FRONT_ROOT."Cinema/AddCinema"?>" method="post" style="padding: 2rem !important;" >
+        <h2>MODIFY CINEMA</h2>
+        <form action="<?php echo  FRONT_ROOT."Cinema/modify"?>" method="post" style="padding: 2rem !important;">
           <table> 
             <thead>
-              <tr>
-              <?php if($message){ echo "<h3>". $message ."</h3><br>";}?>
-              </tr>
               <tr>
                 <th>Name</th>
                 <th>Adress</th>
