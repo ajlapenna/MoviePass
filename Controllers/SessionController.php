@@ -4,8 +4,7 @@
     use DAO\UserDao as UserDao;
     use Models\User as User;
 
-    class SessionController
-    {   
+    class SessionController {
        
         private $userDAO ;
 
@@ -24,6 +23,7 @@
         {
             require_once(VIEWS_PATH."login.php");
         }       
+       
 
         public function ShowAddCinema($message = "") {
             require_once(VIEWS_PATH."validate-session.php");
@@ -56,6 +56,7 @@
                     $_SESSION['loginUser'] = null;
             //var_dump($_SESSION['loginUser']);
             $this->ShowLogInView();
+
          }
 
     }    

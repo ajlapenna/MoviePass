@@ -18,6 +18,16 @@
             require_once(VIEWS_PATH."screening-list.php");
         }
 
+        public function AddScreening() {
+
+            if($_POST) {
+
+                
+
+
+            }
+        }
+
         
 
 

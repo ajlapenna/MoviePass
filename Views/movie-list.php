@@ -18,6 +18,10 @@ $count = 0; $count2 = 0;
         } */
 
 ?>
+<?php 
+ include('header.php');
+include('nav-bar.php');
+?>
 <div> 
         <br>
         <h3 style="font-size: 40px; font-weight: bold">Movies</h3>

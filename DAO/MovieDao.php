@@ -100,7 +100,19 @@ class MovieDao implements Imovie{
         
 		$jsonContent = json_encode($arrayToEncode, JSON_PRETTY_PRINT);
 		file_put_contents($this->fileJsonMovie, $jsonContent);
-	}
+    }
+    
+
+    protected function mapear($value) {
+
+        $value = is_array($value) ? $value : [];
+
+        $resp = array_map(function($p){
+            return new Movie($p['id_movie'], $p['title'], $p['language'], $p['overview'], $p['imagen']);
+        }, $value);
+
+        return count($resp) > 1 ? $resp : $resp['0'];
+    }
 	
 }
 

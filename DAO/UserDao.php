@@ -39,6 +39,17 @@ class UserDAO {
         $this->retrieveData();
         return $this->listUser;
     }
+
+    protected function mapear($value) {
+
+        $value = is_array($value) ? $value : [];
+
+        $resp = array_map(function($p){
+            return new User($p['userName'], $p['password']);
+        }, $value);
+
+        return count($resp) > 1 ? $resp : $resp['0'];
+    }
 }
 
 

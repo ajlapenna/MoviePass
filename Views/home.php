@@ -4,7 +4,7 @@
     <article class="center">
       <h3 class="heading underline">Movie Pass 2020</h3>
 
-      <?php echo  FRONT_ROOT."Movie/listMovies "?>
+     <?php/* echo  FRONT_ROOT."Movie/listMovies "*/?>
 
       <footer><!-- <a class="btn" href="#"></a> --></footer>
     </article>

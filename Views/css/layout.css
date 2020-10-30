@@ -173,8 +173,8 @@ This gives a smooth transition to "ALL" elements used in the layout - other than
 If you don't want it to fade all elements, you have to list the ones you want to be faded individually
 Delete it completely to stop fading
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
-#mainav form *{transition:none !important;}
+/* *, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;} */
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -283,7 +283,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#C1C2C4; background-color:#292929;}
+body{color:#C1C2C4; background-color:#635e5e;}
 a{color:#DC8E47;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
@@ -313,7 +313,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#DC8E47;}
 
 
 /* Top Bar */
-#topbar ul li:first-child a{color:#DC8E47;}
+#topbar ul li:first-child a{color:#dc8a47;}
 
 
 /* Header */
@@ -326,7 +326,7 @@ h3 {
 
 
 /* Page Intro */
-#pageintro{color:#FFFFFF;}
+#pageintro{color:#ffffff;}
 
 
 /* Content Area */
@@ -389,7 +389,7 @@ table, th, td, #comments .avatar, #comments input, #comments textarea{border-col
 #comments input:focus, #comments textarea:focus, #comments *:required:focus{border-color:#DC8E47;}
 th{color:#FFFFFF; background-color:#373737;}
 tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{color:inherit; background-color:#201e1e;}
-tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#332f26;}
+tr:nth-child(even), #comments li:nth-child(even){background-color:#ffffff;}
 table a, #comments a{background-color:inherit;}
 
 
