@@ -1,7 +1,4 @@
-<?php 
- include('header.php');
-
-?>
+<?php require_once('nav-bar.php'); ?>
 
 <div class="wrapper row4">
 <main class="container clear"> 

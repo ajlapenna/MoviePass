@@ -1,3 +1,5 @@
+<?php require_once(VIEWS_PATH. "nav-bar.php"); ?>
+
 <div class="wrapper row4">
 <main class="container clear"> 
     <div class="content"> 

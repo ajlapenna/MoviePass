@@ -1,8 +1,8 @@
 {
     "results": [
         {
-            "popularity": 2627.575,
-            "vote_count": 23,
+            "popularity": 2367.963,
+            "vote_count": 28,
             "video": false,
             "poster_path": "\/ugZW8ocsrfgI95pnQ7wrmKDxIe.jpg",
             "id": 724989,
@@ -20,8 +20,8 @@
             "release_date": "2020-10-23"
         },
         {
-            "popularity": 1993.358,
-            "vote_count": 193,
+            "popularity": 1815.523,
+            "vote_count": 201,
             "video": false,
             "poster_path": "\/7D430eqZj8y3oVkLFfsWXGRcpEG.jpg",
             "id": 528085,
@@ -35,13 +35,35 @@
                 53
             ],
             "title": "2067",
-            "vote_average": 5.5,
+            "vote_average": 5.4,
             "overview": "A lowly utility worker is called to the future by a mysterious radio signal, he must leave his dying wife to embark on a journey that will force him to face his deepest fears in an attempt to change the fabric of reality and save humankind from its greatest environmental crisis yet.",
             "release_date": "2020-10-01"
         },
         {
-            "popularity": 1447.764,
-            "vote_count": 18,
+            "popularity": 1591.383,
+            "vote_count": 305,
+            "video": false,
+            "poster_path": "\/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
+            "id": 531219,
+            "adult": false,
+            "backdrop_path": "\/8rIoyM6zYXJNjzGseT3MRusMPWl.jpg",
+            "original_language": "en",
+            "original_title": "Roald Dahl's The Witches",
+            "genre_ids": [
+                14,
+                10751,
+                12,
+                35,
+                27
+            ],
+            "title": "Roald Dahl's The Witches",
+            "vote_average": 7.3,
+            "overview": "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
+            "release_date": "2020-10-26"
+        },
+        {
+            "popularity": 1109.5,
+            "vote_count": 20,
             "video": false,
             "poster_path": "\/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
             "id": 635302,
@@ -50,12 +72,12 @@
             "original_language": "ja",
             "original_title": "\u5287\u5834\u7248\u300c\u9b3c\u6ec5\u306e\u5203\u300d\u7121\u9650\u5217\u8eca\u7de8",
             "genre_ids": [
-                28,
-                12,
                 16,
-                18,
+                28,
+                36,
+                12,
                 14,
-                36
+                18
             ],
             "title": "Demon Slayer: Kimetsu no Yaiba - The Movie: Mugen Train",
             "vote_average": 7.5,
@@ -63,8 +85,8 @@
             "release_date": "2020-10-16"
         },
         {
-            "popularity": 885.491,
-            "vote_count": 183,
+            "popularity": 902.112,
+            "vote_count": 205,
             "video": false,
             "poster_path": "\/r4Lm1XKP0VsTgHX4LG4syAwYA2I.jpg",
             "id": 590223,
@@ -79,56 +101,13 @@
                 878
             ],
             "title": "Love and Monsters",
-            "vote_average": 7.6,
+            "vote_average": 7.7,
             "overview": "Seven years after the Monsterpocalypse, Joel Dawson, along with the rest of humanity, has been living underground ever since giant creatures took control of the land. After reconnecting over radio with his high school girlfriend Aimee, who is now 80 miles away at a coastal colony, Joel begins to fall for her again. As Joel realizes that there\u2019s nothing left for him underground, he decides against all logic to venture out to Aimee, despite all the dangerous monsters that stand in his way.",
             "release_date": "2020-10-16"
         },
         {
-            "popularity": 811.93,
-            "vote_count": 233,
-            "video": false,
-            "poster_path": "\/betExZlgK0l7CZ9CsCBVcwO1OjL.jpg",
-            "id": 531219,
-            "adult": false,
-            "backdrop_path": "\/f2rYRh4TmhHZutQR2wL2tm97G6I.jpg",
-            "original_language": "en",
-            "original_title": "Roald Dahl's The Witches",
-            "genre_ids": [
-                12,
-                35,
-                14,
-                27,
-                10751
-            ],
-            "title": "Roald Dahl's The Witches",
-            "vote_average": 7.2,
-            "overview": "In late 1967, a young orphaned boy goes to live with his loving grandma in the rural Alabama town of Demopolis. As the boy and his grandmother encounter some deceptively glamorous but thoroughly diabolical witches, she wisely whisks him away to a seaside resort. Regrettably, they arrive at precisely the same time that the world's Grand High Witch has gathered.",
-            "release_date": "2020-10-26"
-        },
-        {
-            "popularity": 707.528,
-            "vote_count": 2643,
-            "video": false,
-            "poster_path": "\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
-            "id": 337401,
-            "adult": false,
-            "backdrop_path": "\/zzWGRw277MNoCs3zhyG3YmYQsXv.jpg",
-            "original_language": "en",
-            "original_title": "Mulan",
-            "genre_ids": [
-                28,
-                12,
-                18,
-                14
-            ],
-            "title": "Mulan",
-            "vote_average": 7.3,
-            "overview": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
-            "release_date": "2020-09-04"
-        },
-        {
-            "popularity": 686.782,
-            "vote_count": 323,
+            "popularity": 651.132,
+            "vote_count": 326,
             "video": false,
             "poster_path": "\/uOw5JD8IlD546feZ6oxbIjvN66P.jpg",
             "id": 718444,
@@ -143,13 +122,31 @@
                 53
             ],
             "title": "Rogue",
-            "vote_average": 5.9,
+            "vote_average": 5.8,
             "overview": "Battle-hardened O\u2019Hara leads a lively mercenary team of soldiers on a daring mission: rescue hostages from their captors in remote Africa. But as the mission goes awry and the team is stranded, O\u2019Hara\u2019s squad must face a bloody, brutal encounter with a gang of rebels.",
             "release_date": "2020-08-20"
         },
         {
-            "popularity": 683.025,
-            "vote_count": 880,
+            "popularity": 638.944,
+            "vote_count": 156,
+            "video": false,
+            "poster_path": "\/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg",
+            "id": 694919,
+            "adult": false,
+            "backdrop_path": "\/pq0JSpwyT2URytdFG0euztQPAyR.jpg",
+            "original_language": "en",
+            "original_title": "Money Plane",
+            "genre_ids": [
+                28
+            ],
+            "title": "Money Plane",
+            "vote_average": 5.9,
+            "overview": "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
+            "release_date": "2020-09-29"
+        },
+        {
+            "popularity": 631.045,
+            "vote_count": 1054,
             "video": false,
             "poster_path": "\/kiX7UYfOpYrMFSAGbI6j1pFkLzQ.jpg",
             "id": 613504,
@@ -162,13 +159,13 @@
                 10749
             ],
             "title": "After We Collided",
-            "vote_average": 7.1,
+            "vote_average": 7.2,
             "overview": "Tessa finds herself struggling with her complicated relationship with Hardin; she faces a dilemma that could change their lives forever.",
             "release_date": "2020-09-02"
         },
         {
-            "popularity": 680.597,
-            "vote_count": 539,
+            "popularity": 624.425,
+            "vote_count": 545,
             "video": false,
             "poster_path": "\/qzA87Wf4jo1h8JMk9GilyIYvwsA.jpg",
             "id": 539885,
@@ -188,26 +185,29 @@
             "release_date": "2020-07-02"
         },
         {
-            "popularity": 665.685,
-            "vote_count": 153,
+            "popularity": 613.467,
+            "vote_count": 2672,
             "video": false,
-            "poster_path": "\/6CoRTJTmijhBLJTUNoVSUNxZMEI.jpg",
-            "id": 694919,
+            "poster_path": "\/aKx1ARwG55zZ0GpRvU2WrGrCG9o.jpg",
+            "id": 337401,
             "adult": false,
-            "backdrop_path": "\/pq0JSpwyT2URytdFG0euztQPAyR.jpg",
+            "backdrop_path": "\/zzWGRw277MNoCs3zhyG3YmYQsXv.jpg",
             "original_language": "en",
-            "original_title": "Money Plane",
+            "original_title": "Mulan",
             "genre_ids": [
-                28
+                28,
+                12,
+                18,
+                14
             ],
-            "title": "Money Plane",
-            "vote_average": 5.9,
-            "overview": "A professional thief with $40 million in debt and his family's life on the line must commit one final heist - rob a futuristic airborne casino filled with the world's most dangerous criminals.",
-            "release_date": "2020-09-29"
+            "title": "Mulan",
+            "vote_average": 7.3,
+            "overview": "When the Emperor of China issues a decree that one man per family must serve in the Imperial Chinese Army to defend the country from Huns, Hua Mulan, the eldest daughter of an honored warrior, steps in to take the place of her ailing father. She is spirited, determined and quick on her feet. Disguised as a man by the name of Hua Jun, she is tested every step of the way and must harness her innermost strength and embrace her true potential.",
+            "release_date": "2020-09-04"
         },
         {
-            "popularity": 654.696,
-            "vote_count": 670,
+            "popularity": 607.834,
+            "vote_count": 676,
             "video": false,
             "poster_path": "\/sy6DvAu72kjoseZEjocnm2ZZ09i.jpg",
             "id": 581392,
@@ -226,8 +226,8 @@
             "release_date": "2020-07-15"
         },
         {
-            "popularity": 551,
-            "vote_count": 54,
+            "popularity": 454.521,
+            "vote_count": 56,
             "video": false,
             "poster_path": "\/n9OzZmPMnVrV0cMQ7amX0DtBkQH.jpg",
             "id": 509635,
@@ -239,32 +239,34 @@
                 53
             ],
             "title": "Alone",
-            "vote_average": 6.3,
+            "vote_average": 6.2,
             "overview": "A recently widowed traveler is kidnapped by a cold blooded killer, only to escape into the wilderness where she is forced to battle against the elements as her pursuer closes in on her.",
             "release_date": "2020-09-10"
         },
         {
-            "popularity": 380.657,
-            "vote_count": 451,
+            "popularity": 400.351,
+            "vote_count": 155,
             "video": false,
-            "poster_path": "\/zGVbrulkupqpbwgiNedkJPyQum4.jpg",
-            "id": 592350,
+            "poster_path": "\/lQfdytwN7eh0tXWjIiMceFdBBvD.jpg",
+            "id": 560050,
             "adult": false,
-            "backdrop_path": "\/9guoVF7zayiiUq5ulKQpt375VIy.jpg",
-            "original_language": "ja",
-            "original_title": "\u50d5\u306e\u30d2\u30fc\u30ed\u30fc\u30a2\u30ab\u30c7\u30df\u30a2 THE MOVIE \u30d2\u30fc\u30ed\u30fc\u30ba\uff1a\u30e9\u30a4\u30b8\u30f3\u30b0",
+            "backdrop_path": "\/htBUhLSS7FfHtydgYxUWjL3J1Q1.jpg",
+            "original_language": "en",
+            "original_title": "Over the Moon",
             "genre_ids": [
-                28,
-                16
+                12,
+                16,
+                14,
+                10751
             ],
-            "title": "My Hero Academia: Heroes Rising",
-            "vote_average": 8.6,
-            "overview": "Class 1-A visits Nabu Island where they finally get to do some real hero work. The place is so peaceful that it's more like a vacation \u2026 until they're attacked by a villain with an unfathomable Quirk! His power is eerily familiar, and it looks like Shigaraki had a hand in the plan. But with All Might retired and citizens' lives on the line, there's no time for questions. Deku and his friends are the next generation of heroes, and they're the island's only hope.",
-            "release_date": "2019-12-20"
+            "title": "Over the Moon",
+            "vote_average": 7.9,
+            "overview": "A girl builds a rocket to travel to the moon in hopes of meeting the legendary Moon Goddess.",
+            "release_date": "2020-10-16"
         },
         {
-            "popularity": 312.614,
-            "vote_count": 92,
+            "popularity": 293.355,
+            "vote_count": 94,
             "video": false,
             "poster_path": "\/ltyARDw2EFXZ2H2ERnlEctXPioP.jpg",
             "id": 425001,
@@ -283,8 +285,26 @@
             "release_date": "2020-08-27"
         },
         {
-            "popularity": 309.004,
-            "vote_count": 1237,
+            "popularity": 290.758,
+            "vote_count": 2,
+            "video": false,
+            "poster_path": "\/zamW7KUYYtAdxMtTuCzukRjHTPO.jpg",
+            "id": 748224,
+            "adult": false,
+            "backdrop_path": "\/flNp7NdzBC1UGctzuubQveuVSF5.jpg",
+            "original_language": "en",
+            "original_title": "Reaptown",
+            "genre_ids": [
+                27
+            ],
+            "title": "Reaptown",
+            "vote_average": 6,
+            "overview": "In this supernatural horror film, Carrie Baldwin is freed from prison under the conditions of a work-release program in Reaptown, Nevada. As she struggles to find her missing sister while working the night shift as a security guard for the Reaptown Railway Museum, Carrie soon finds herself in the presence of evil. Could the Railway hold the clues to her sister's mysterious disappearance?",
+            "release_date": "2020-09-28"
+        },
+        {
+            "popularity": 277.491,
+            "vote_count": 1240,
             "video": false,
             "poster_path": "\/7W0G3YECgDAfnuiHG91r8WqgIOe.jpg",
             "id": 446893,
@@ -306,8 +326,29 @@
             "release_date": "2020-03-12"
         },
         {
-            "popularity": 300.777,
-            "vote_count": 86,
+            "popularity": 265.031,
+            "vote_count": 65,
+            "video": false,
+            "poster_path": "\/zfdhsR3Y3xw42OHrMpi0oBw0Uk8.jpg",
+            "id": 741074,
+            "adult": false,
+            "backdrop_path": "\/DA7gzvlBoxMNL0XmGgTZOyv67P.jpg",
+            "original_language": "en",
+            "original_title": "Once Upon a Snowman",
+            "genre_ids": [
+                16,
+                35,
+                14,
+                10751
+            ],
+            "title": "Once Upon a Snowman",
+            "vote_average": 7.4,
+            "overview": "The previously untold origins of Olaf, the innocent and insightful, summer-loving snowman are revealed as we follow Olaf\u2019s first steps as he comes to life and searches for his identity in the snowy mountains outside Arendelle.",
+            "release_date": "2020-10-23"
+        },
+        {
+            "popularity": 259.417,
+            "vote_count": 87,
             "video": false,
             "poster_path": "\/4BgSWFMW2MJ0dT5metLzsRWO7IJ.jpg",
             "id": 726739,
@@ -320,18 +361,18 @@
                 35
             ],
             "title": "Cats & Dogs 3: Paws Unite",
-            "vote_average": 6.6,
+            "vote_average": 6.5,
             "overview": "It's been ten years since the creation of the Great Truce, an elaborate joint-species surveillance system designed and monitored by cats and dogs to keep the peace when conflicts arise. But when a tech-savvy villain hacks into wireless networks to use frequencies only heard by cats and dogs, he manipulates them into conflict and the worldwide battle between cats and dogs is BACK ON. Now, a team of inexperienced and untested agents will have to use their old-school animal instincts to restore order and peace between cats and dogs everywhere.",
             "release_date": "2020-10-02"
         },
         {
-            "popularity": 245.727,
-            "vote_count": 210,
+            "popularity": 232.215,
+            "vote_count": 233,
             "video": false,
             "poster_path": "\/bSKVKcCXdKxkbgf0LL8lBTPG02e.jpg",
             "id": 505379,
             "adult": false,
-            "backdrop_path": "\/mY8oTSMlVHgkBtKsvanKnvT8rY9.jpg",
+            "backdrop_path": "\/rVkptIl9QkhpB5xM6BnUAHOJ43b.jpg",
             "original_language": "en",
             "original_title": "Rebecca",
             "genre_ids": [
@@ -341,31 +382,13 @@
                 10749
             ],
             "title": "Rebecca",
-            "vote_average": 6.4,
+            "vote_average": 6.3,
             "overview": "After a whirlwind romance with a wealthy widower, a na\u00efve bride moves to his family estate but can't escape the haunting shadow of his late wife.",
             "release_date": "2020-10-16"
         },
         {
-            "popularity": 229.144,
-            "vote_count": 2,
-            "video": false,
-            "poster_path": "\/zamW7KUYYtAdxMtTuCzukRjHTPO.jpg",
-            "id": 748224,
-            "adult": false,
-            "backdrop_path": "\/flNp7NdzBC1UGctzuubQveuVSF5.jpg",
-            "original_language": "en",
-            "original_title": "Reaptown",
-            "genre_ids": [
-                27
-            ],
-            "title": "Reaptown",
-            "vote_average": 6,
-            "overview": "In this supernatural horror film, Carrie Baldwin is freed from prison under the conditions of a work-release program in Reaptown, Nevada. As she struggles to find her missing sister while working the night shift as a security guard for the Reaptown Railway Museum, Carrie soon finds herself in the presence of evil. Could the Railway hold the clues to her sister's mysterious disappearance?",
-            "release_date": "2020-09-28"
-        },
-        {
-            "popularity": 222.535,
-            "vote_count": 407,
+            "popularity": 213.559,
+            "vote_count": 409,
             "video": false,
             "poster_path": "\/hPkqY2EMqWUnFEoedukilIUieVG.jpg",
             "id": 531876,
@@ -383,34 +406,13 @@
             "vote_average": 6.7,
             "overview": "A small unit of U.S. soldiers, alone at the remote Combat Outpost Keating, located deep in the valley of three mountains in Afghanistan, battles to defend against an overwhelming force of Taliban fighters in a coordinated attack. The Battle of Kamdesh, as it was known, was the bloodiest American engagement of the Afghan War in 2009 and Bravo Troop 3-61 CAV became one of the most decorated units of the 19-year conflict.",
             "release_date": "2020-06-24"
-        },
-        {
-            "popularity": 213.239,
-            "vote_count": 38,
-            "video": false,
-            "poster_path": "\/22jwKxZf4rcrmh2NS07SZAQYYNY.jpg",
-            "id": 604578,
-            "adult": false,
-            "backdrop_path": "\/324jDHMRHWZ8HLbjRJNwVPYJZT0.jpg",
-            "original_language": "en",
-            "original_title": "Spontaneous",
-            "genre_ids": [
-                35,
-                27,
-                878,
-                10749
-            ],
-            "title": "Spontaneous",
-            "vote_average": 7.1,
-            "overview": "When students in their high school begin inexplicably exploding (literally...), seniors Mara and Dylan struggle to survive in a world where each moment may be their last.",
-            "release_date": "2020-10-02"
         }
     ],
     "page": 1,
-    "total_results": 1460,
+    "total_results": 1491,
     "dates": {
-        "maximum": "2020-10-26",
-        "minimum": "2020-09-08"
+        "maximum": "2020-11-04",
+        "minimum": "2020-09-17"
     },
-    "total_pages": 73
+    "total_pages": 75
 }

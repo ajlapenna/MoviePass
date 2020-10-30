@@ -1,4 +1,4 @@
-<?php
+<?php require_once('nav-bar.php');
 use Controllers\MovieController;
 use Models\Movie;
 

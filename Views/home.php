@@ -1,7 +1,4 @@
-<?php 
-    include_once('header.php');
-    include_once('nav-bar.php'); 
-?>
+<?php require_once(VIEWS_PATH. "nav-bar.php"); ?>
 
   <div id="pageintro" class="hoc clear"> 
     <article class="center">
@@ -14,6 +11,3 @@
   </div>
 </div>
 
-<?php 
-  include_once('footer.php');
-?> 

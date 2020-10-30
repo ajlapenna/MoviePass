@@ -37,6 +37,7 @@
 
             if(($user != null) && ($user->getPassword() === $password))
             {
+
                 $_SESSION["loginUser"] = $user;
                 
                 $this->ShowAddCinema();
@@ -49,8 +50,12 @@
         //LogOutFunction
 
         public function SessionDestroy(){
-                session_destroy();
-                $this->ShowLogInView();
+            //var_dump($_SESSION['loginUser']);
+            if(isset($_SESSION))
+                if(!empty($_SESSION['loginUser']))
+                    $_SESSION['loginUser'] = null;
+            //var_dump($_SESSION['loginUser']);
+            $this->ShowLogInView();
          }
 
     }    

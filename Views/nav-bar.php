@@ -19,7 +19,7 @@
               <li><a href="<?php echo FRONT_ROOT."Session/ShowLogInView" ?>">Log In</a></li>
                 <li><a href="<?php echo FRONT_ROOT."Session/ShowSignUpView" ?>">Sign Up</a></li>
 
-      </ul>
+
               </ul>
             </li>
             <?php 
